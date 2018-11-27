@@ -1833,7 +1833,7 @@ void initializeNewConfigSettings(void) {
             configInject(F("aqe\r"));
             in_config_mode = true;
         }
-        configInject(F("sampling 5, 600, 60\r"));
+        configInject(F("sampling 5, 300, 60\r"));
     }
 
 // if the stored sampling averaging interval is above 300, reduce it to 300
